@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'NM';
+    src: url('fonts/nm-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NM';
+    src: url('fonts/nm-ultrabold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NM';
+}
+
+h1 {
+    font-weight: 900 !important;
+    color: var(--bs-indigo);
+}
