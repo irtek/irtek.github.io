@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
     font-family: 'NM';
     src: url('fonts/nm-regular.otf') format('opentype');
@@ -13,10 +15,14 @@
 }
 
 body {
-    font-family: 'NM';
+    font-family: 'NM', sans-serif;
 }
 
 h1 {
     font-weight: 900 !important;
     color: var(--bs-indigo);
+}
+
+p span {
+    white-space: nowrap;
 }
